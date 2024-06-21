@@ -7,7 +7,7 @@ dbt_first_project:
       user: 'postgres'
       password: '1234'
       port: 5432
-      dbname: 'teste' # or database instead of dbname
+      dbname: 'stage' # or database instead of dbname
       schema: 'f1'
       threads: 10
 

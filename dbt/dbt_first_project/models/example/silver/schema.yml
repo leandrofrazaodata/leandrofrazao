@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: f1
+    description: "The source table from DB teste, schema f1 and table formula1"
+    database: teste
+    schema: 'f1'
+    tables:
+      - name: formula1
+        description: 'Table with the formula 1 data'
+
