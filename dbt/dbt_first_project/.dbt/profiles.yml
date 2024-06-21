@@ -3,12 +3,12 @@ dbt_first_project:
   outputs:
     dev:
       type: postgres
-      host: [172.21.0.5]
-      user: [postgres]
-      password: [1234]
-      port: [5432]
-      dbname: [teste] # or database instead of dbname
-      schema: [f1]
+      host: '172.21.0.5'
+      user: 'postgres'
+      password: '1234'
+      port: 5432
+      dbname: 'teste' # or database instead of dbname
+      schema: 'f1'
       threads: 10
 
       
